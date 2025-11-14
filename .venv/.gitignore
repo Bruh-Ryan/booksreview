@@ -1,0 +1,8 @@
+# Create or edit .gitignore in your repository root
+echo "*.env" >> .gitignore
+echo ".env" >> .gitignore
+
+# Commit the .gitignore
+git add .gitignore
+git commit -m "Add .env to .gitignore"
+git push origin main
